@@ -19,7 +19,7 @@ spec:
       containers:
       - name: photo-album
         # Use the internal hostname for the image registry
-        image: image-registry.openshift-image-registry.svc.cluster.local:5000/oit-sepe-demo/my-photo-album:latest
+        image: ghcr.io/ucboulder/sepe-geek-week-part-two-photo-album-c/photo-album:latest
         # Enable DEBUG logging on the static web server
         env:
         - name: DEBUG
